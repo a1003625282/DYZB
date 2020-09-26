@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		186E33F7251F7F9A00DAE540 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186E33F6251F7F9A00DAE540 /* AppDelegate.swift */; };
-		186E33F9251F7F9A00DAE540 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186E33F8251F7F9A00DAE540 /* SceneDelegate.swift */; };
-		186E33FB251F7F9A00DAE540 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186E33FA251F7F9A00DAE540 /* ViewController.swift */; };
-		186E33FE251F7F9A00DAE540 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186E33FC251F7F9A00DAE540 /* Main.storyboard */; };
-		186E3400251F7F9B00DAE540 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 186E33FF251F7F9B00DAE540 /* Assets.xcassets */; };
-		186E3403251F7F9B00DAE540 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186E3401251F7F9B00DAE540 /* LaunchScreen.storyboard */; };
+		18F346E8251F827F00236592 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F346E7251F827F00236592 /* AppDelegate.swift */; };
+		18F346EA251F827F00236592 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F346E9251F827F00236592 /* SceneDelegate.swift */; };
+		18F346EC251F827F00236592 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F346EB251F827F00236592 /* ViewController.swift */; };
+		18F346EF251F827F00236592 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F346ED251F827F00236592 /* Main.storyboard */; };
+		18F346F1251F828100236592 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F346F0251F828100236592 /* Assets.xcassets */; };
+		18F346F4251F828100236592 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F346F2251F828100236592 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		186E33F3251F7F9A00DAE540 /* DYTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		186E33F6251F7F9A00DAE540 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		186E33F8251F7F9A00DAE540 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		186E33FA251F7F9A00DAE540 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		186E33FD251F7F9A00DAE540 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		186E33FF251F7F9B00DAE540 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		186E3402251F7F9B00DAE540 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		186E3404251F7F9B00DAE540 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F346E4251F827F00236592 /* dytv15.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dytv15.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F346E7251F827F00236592 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18F346E9251F827F00236592 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		18F346EB251F827F00236592 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18F346EE251F827F00236592 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18F346F0251F828100236592 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18F346F3251F828100236592 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18F346F5251F828100236592 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		186E33F0251F7F9A00DAE540 /* Frameworks */ = {
+		18F346E1251F827F00236592 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,71 +37,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		186E33EA251F7F9A00DAE540 = {
+		18F346DB251F827F00236592 = {
 			isa = PBXGroup;
 			children = (
-				186E33F5251F7F9A00DAE540 /* DYTV */,
-				186E33F4251F7F9A00DAE540 /* Products */,
+				18F346E6251F827F00236592 /* dytv15 */,
+				18F346E5251F827F00236592 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		186E33F4251F7F9A00DAE540 /* Products */ = {
+		18F346E5251F827F00236592 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				186E33F3251F7F9A00DAE540 /* DYTV.app */,
+				18F346E4251F827F00236592 /* dytv15.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		186E33F5251F7F9A00DAE540 /* DYTV */ = {
+		18F346E6251F827F00236592 /* dytv15 */ = {
 			isa = PBXGroup;
 			children = (
-				186E33F6251F7F9A00DAE540 /* AppDelegate.swift */,
-				186E33F8251F7F9A00DAE540 /* SceneDelegate.swift */,
-				186E33FA251F7F9A00DAE540 /* ViewController.swift */,
-				186E33FC251F7F9A00DAE540 /* Main.storyboard */,
-				186E33FF251F7F9B00DAE540 /* Assets.xcassets */,
-				186E3401251F7F9B00DAE540 /* LaunchScreen.storyboard */,
-				186E3404251F7F9B00DAE540 /* Info.plist */,
+				18F346E7251F827F00236592 /* AppDelegate.swift */,
+				18F346E9251F827F00236592 /* SceneDelegate.swift */,
+				18F346EB251F827F00236592 /* ViewController.swift */,
+				18F346ED251F827F00236592 /* Main.storyboard */,
+				18F346F0251F828100236592 /* Assets.xcassets */,
+				18F346F2251F828100236592 /* LaunchScreen.storyboard */,
+				18F346F5251F828100236592 /* Info.plist */,
 			);
-			path = DYTV;
+			path = dytv15;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		186E33F2251F7F9A00DAE540 /* DYTV */ = {
+		18F346E3251F827F00236592 /* dytv15 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 186E3407251F7F9B00DAE540 /* Build configuration list for PBXNativeTarget "DYTV" */;
+			buildConfigurationList = 18F346F8251F828100236592 /* Build configuration list for PBXNativeTarget "dytv15" */;
 			buildPhases = (
-				186E33EF251F7F9A00DAE540 /* Sources */,
-				186E33F0251F7F9A00DAE540 /* Frameworks */,
-				186E33F1251F7F9A00DAE540 /* Resources */,
+				18F346E0251F827F00236592 /* Sources */,
+				18F346E1251F827F00236592 /* Frameworks */,
+				18F346E2251F827F00236592 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = DYTV;
-			productName = DYTV;
-			productReference = 186E33F3251F7F9A00DAE540 /* DYTV.app */;
+			name = dytv15;
+			productName = dytv15;
+			productReference = 18F346E4251F827F00236592 /* dytv15.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		186E33EB251F7F9A00DAE540 /* Project object */ = {
+		18F346DC251F827F00236592 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1200;
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
-					186E33F2251F7F9A00DAE540 = {
+					18F346E3251F827F00236592 = {
 						CreatedOnToolsVersion = 12.0.1;
 					};
 				};
 			};
-			buildConfigurationList = 186E33EE251F7F9A00DAE540 /* Build configuration list for PBXProject "DYTV" */;
+			buildConfigurationList = 18F346DF251F827F00236592 /* Build configuration list for PBXProject "dytv15" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -109,55 +109,55 @@
 				en,
 				Base,
 			);
-			mainGroup = 186E33EA251F7F9A00DAE540;
-			productRefGroup = 186E33F4251F7F9A00DAE540 /* Products */;
+			mainGroup = 18F346DB251F827F00236592;
+			productRefGroup = 18F346E5251F827F00236592 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				186E33F2251F7F9A00DAE540 /* DYTV */,
+				18F346E3251F827F00236592 /* dytv15 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		186E33F1251F7F9A00DAE540 /* Resources */ = {
+		18F346E2251F827F00236592 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				186E3403251F7F9B00DAE540 /* LaunchScreen.storyboard in Resources */,
-				186E3400251F7F9B00DAE540 /* Assets.xcassets in Resources */,
-				186E33FE251F7F9A00DAE540 /* Main.storyboard in Resources */,
+				18F346F4251F828100236592 /* LaunchScreen.storyboard in Resources */,
+				18F346F1251F828100236592 /* Assets.xcassets in Resources */,
+				18F346EF251F827F00236592 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		186E33EF251F7F9A00DAE540 /* Sources */ = {
+		18F346E0251F827F00236592 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				186E33FB251F7F9A00DAE540 /* ViewController.swift in Sources */,
-				186E33F7251F7F9A00DAE540 /* AppDelegate.swift in Sources */,
-				186E33F9251F7F9A00DAE540 /* SceneDelegate.swift in Sources */,
+				18F346EC251F827F00236592 /* ViewController.swift in Sources */,
+				18F346E8251F827F00236592 /* AppDelegate.swift in Sources */,
+				18F346EA251F827F00236592 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		186E33FC251F7F9A00DAE540 /* Main.storyboard */ = {
+		18F346ED251F827F00236592 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				186E33FD251F7F9A00DAE540 /* Base */,
+				18F346EE251F827F00236592 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		186E3401251F7F9B00DAE540 /* LaunchScreen.storyboard */ = {
+		18F346F2251F828100236592 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				186E3402251F7F9B00DAE540 /* Base */,
+				18F346F3251F828100236592 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -165,7 +165,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		186E3405251F7F9B00DAE540 /* Debug */ = {
+		18F346F6251F828100236592 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -226,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		186E3406251F7F9B00DAE540 /* Release */ = {
+		18F346F7251F828100236592 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -281,36 +281,36 @@
 			};
 			name = Release;
 		};
-		186E3408251F7F9B00DAE540 /* Debug */ = {
+		18F346F9251F828100236592 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = DYTV/Info.plist;
+				INFOPLIST_FILE = dytv15/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = zjh.DYTV;
+				PRODUCT_BUNDLE_IDENTIFIER = zjh.dytv15;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		186E3409251F7F9B00DAE540 /* Release */ = {
+		18F346FA251F828100236592 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = DYTV/Info.plist;
+				INFOPLIST_FILE = dytv15/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = zjh.DYTV;
+				PRODUCT_BUNDLE_IDENTIFIER = zjh.dytv15;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -320,25 +320,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		186E33EE251F7F9A00DAE540 /* Build configuration list for PBXProject "DYTV" */ = {
+		18F346DF251F827F00236592 /* Build configuration list for PBXProject "dytv15" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				186E3405251F7F9B00DAE540 /* Debug */,
-				186E3406251F7F9B00DAE540 /* Release */,
+				18F346F6251F828100236592 /* Debug */,
+				18F346F7251F828100236592 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		186E3407251F7F9B00DAE540 /* Build configuration list for PBXNativeTarget "DYTV" */ = {
+		18F346F8251F828100236592 /* Build configuration list for PBXNativeTarget "dytv15" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				186E3408251F7F9B00DAE540 /* Debug */,
-				186E3409251F7F9B00DAE540 /* Release */,
+				18F346F9251F828100236592 /* Debug */,
+				18F346FA251F828100236592 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 186E33EB251F7F9A00DAE540 /* Project object */;
+	rootObject = 18F346DC251F827F00236592 /* Project object */;
 }
