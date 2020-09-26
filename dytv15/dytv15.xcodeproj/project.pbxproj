@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		18F346E8251F827F00236592 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F346E7251F827F00236592 /* AppDelegate.swift */; };
 		18F346EA251F827F00236592 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F346E9251F827F00236592 /* SceneDelegate.swift */; };
-		18F346EC251F827F00236592 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F346EB251F827F00236592 /* ViewController.swift */; };
 		18F346EF251F827F00236592 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F346ED251F827F00236592 /* Main.storyboard */; };
 		18F346F1251F828100236592 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F346F0251F828100236592 /* Assets.xcassets */; };
 		18F346F4251F828100236592 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F346F2251F828100236592 /* LaunchScreen.storyboard */; };
@@ -19,7 +18,6 @@
 		18F346E4251F827F00236592 /* dytv15.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dytv15.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F346E7251F827F00236592 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18F346E9251F827F00236592 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		18F346EB251F827F00236592 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		18F346EE251F827F00236592 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18F346F0251F828100236592 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18F346F3251F828100236592 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,15 +54,70 @@
 		18F346E6251F827F00236592 /* dytv15 */ = {
 			isa = PBXGroup;
 			children = (
+				18F34700251F93B600236592 /* Classes */,
 				18F346E7251F827F00236592 /* AppDelegate.swift */,
 				18F346E9251F827F00236592 /* SceneDelegate.swift */,
-				18F346EB251F827F00236592 /* ViewController.swift */,
 				18F346ED251F827F00236592 /* Main.storyboard */,
 				18F346F0251F828100236592 /* Assets.xcassets */,
 				18F346F2251F828100236592 /* LaunchScreen.storyboard */,
 				18F346F5251F828100236592 /* Info.plist */,
 			);
 			path = dytv15;
+			sourceTree = "<group>";
+		};
+		18F34700251F93B600236592 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				18F34706251F93B600236592 /* Main */,
+				18F34701251F93B600236592 /* Home */,
+				18F34705251F93B600236592 /* Live */,
+				18F34703251F93B600236592 /* Follow */,
+				18F34704251F93B600236592 /* Profile */,
+				18F34702251F93B600236592 /* Tools */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		18F34701251F93B600236592 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		18F34702251F93B600236592 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		18F34703251F93B600236592 /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		18F34704251F93B600236592 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		18F34705251F93B600236592 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		18F34706251F93B600236592 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +190,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18F346EC251F827F00236592 /* ViewController.swift in Sources */,
 				18F346E8251F827F00236592 /* AppDelegate.swift in Sources */,
 				18F346EA251F827F00236592 /* SceneDelegate.swift in Sources */,
 			);
@@ -288,7 +340,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = dytv15/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +359,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = dytv15/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
